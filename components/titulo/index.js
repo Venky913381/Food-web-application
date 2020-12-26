@@ -1,19 +1,19 @@
-import { useState } from 'react'
-import { StyledTitle, StyledButton } from './styles'
+import { useState } from "react";
+import { StyledTitle, StyledButton } from "./styles";
 
 const Titulo = () => {
-  const [state, setState] = useState(false)
+  const [state, setState] = useState(false);
   return (
     <>
-      <StyledTitle state={state} m='40px 0'>
+      <StyledTitle state={state} m="40px 0">
         Titulo
       </StyledTitle>
-      <h1>{state ? 'verdadero' : 'falso'}</h1>
-      <StyledButton onClick={() => setState(!state)} variant='yellow'>
-        click en mi
+      <h1>{state ? "verdadero" : "falso"}</h1>
+      <StyledButton onClick={() => setState(!state)} variant="yellow">
+        click me!!!
       </StyledButton>
     </>
-  )
-}
+  );
+};
 
-export default Titulo
+export default Titulo;
