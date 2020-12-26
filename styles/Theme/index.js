@@ -1,4 +1,3 @@
-
 const colors = {
   yellow: '#FFD200',
   graySecondary: '#838383',
