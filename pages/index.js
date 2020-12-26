@@ -1,12 +1,16 @@
 import Popcorn from "@icons/Popcorn"
 import Anchor from "@atoms/Anchor"
 import Title from "@atoms/Title"
+import Text from "@atoms/Text"
 
 const Index = () => {
   return (
-    <Anchor href="/About">
+    <>
       <Title align=''>Choose A Tasty Dish</Title>
-    </Anchor>
+      <Text s='50px' color='orange'>
+        Order anything you want from your Favorite restaurant.
+      </Text>
+    </>
   )
 }
 
