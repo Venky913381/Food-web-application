@@ -1,8 +1,10 @@
+import Logo from '@atoms/Logo'
 import Link from 'next/link'
 
 const About = () => {
   return (
     <>
+      <Logo />
       <Link href='/'>
         <a>
           Inicio

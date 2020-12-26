@@ -1,16 +1,12 @@
-import Link from 'next/link'
-import Titulo from '../components/titulo'
+import Popcorn from '@icons/Popcorn'
+import Anchor from '@atoms/Anchor'
 
 const Index = () => {
   return (
-    <>
-      <Link href='/about'>
-        <a>
-          About
-        </a>
-      </Link>
-      <Titulo />
-    </>
+    <Anchor href='/popcorn'>
+      <Popcorn />
+      <h1>Hola</h1>
+    </Anchor>
   )
 }
 
