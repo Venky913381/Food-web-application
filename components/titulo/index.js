@@ -9,7 +9,7 @@ const Titulo = () => {
         Titulo
       </StyledTitle>
       <h1>{state ? 'verdadero' : 'falso'}</h1>
-      <StyledButton onClick={() => setState(!state)} variant='black'>
+      <StyledButton onClick={() => setState(!state)} variant='yellow'>
         click en mi
       </StyledButton>
     </>
