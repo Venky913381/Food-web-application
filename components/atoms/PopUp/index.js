@@ -1,4 +1,4 @@
-import { StyledPopup } from "./styles"
+import { StyledPopup } from './styles'
 
 const PopUp = (props) => {
   return (
