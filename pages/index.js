@@ -8,7 +8,7 @@ import Input from '@atoms/Input'
 const Index = () => {
   return (
     <>
-      <Input ph='Example Text'></Input>
+      <Input ph='Text'></Input>
     </>
   )
 }
