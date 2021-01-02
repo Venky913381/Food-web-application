@@ -14,6 +14,7 @@ export const StyledButton = styled.button`
   font-size: 16px;
   font-weight: 600;
   transition: .3s;
+  cursor: pointer;
   outline: none;
 
   &:active{
