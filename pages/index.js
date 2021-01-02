@@ -1,12 +1,10 @@
-import Popcorn from '@icons/Popcorn'
-import Anchor from '@atoms/Anchor'
+import Button from '@atoms/Button'
 
 const Index = () => {
   return (
-    <Anchor href='/popcorn'>
-      <Popcorn />
-      <h1>Hola</h1>
-    </Anchor>
+    <Button>
+      Button
+    </Button>
   )
 }
 

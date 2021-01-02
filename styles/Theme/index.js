@@ -7,7 +7,8 @@ const colors = {
   MainBg: '#F6F6F6',
   white: '#FFFFFF',
   black: '#000000',
-  auto: 'auto'
+  auto: 'auto',
+  transparent: 'transparent'
 }
 
 export default colors
