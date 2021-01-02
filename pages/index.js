@@ -1,28 +1,13 @@
-import { useState } from 'react'
-import Text from '@atoms/Text'
-import PopUp from '@atoms/PopUp'
-import Button from '@atoms/Button'
+import Input from '@atoms/input'
+import Search from '@icons/Search'
 
 const Index = () => {
-  const [open, setOpen] = useState(false)
-
-  const togglePopUp = () => {
-    setOpen(!open)
-  }
-
   return (
-    <>
-      <PopUp
-        overlay
-        open={open}
-        togglePopUp={togglePopUp}
-      >
-        <Text align='center'>Button</Text>
-      </PopUp>
-      <Button onClick={togglePopUp}>
-        Abrir PopUp
-      </Button>
-    </>
+    <Input
+      type='email'
+      ph='Find your taste'
+      iconRight={Search}
+    />
   )
 }
 
