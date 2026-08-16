@@ -1,16 +1,13 @@
-import Link from 'next/link'
-import Titulo from '../components/titulo'
+import Input from '@atoms/input'
+import Search from '@icons/Search'
 
 const Index = () => {
   return (
-    <>
-      <Link href='/about'>
-        <a>
-          About
-        </a>
-      </Link>
-      <Titulo />
-    </>
+    <Input
+      type='email'
+      ph='Find your taste'
+      iconRight={Search}
+    />
   )
 }
 
